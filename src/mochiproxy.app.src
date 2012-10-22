@@ -1,0 +1,13 @@
+{application, mochiproxy, [
+    {description, "mochiproxy"},
+    {vsn, git},
+    {registered, []},
+    {env, []},
+    {applications, [
+        kernel,
+        stdlib,
+        crypto,
+        inets,
+        ibrowse
+    ]}
+]}.
